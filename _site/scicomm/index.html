@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="hsl(35, 36%, 95%)">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon/favicon.png">
+  <title>science communication</title>
+
+  
+  <meta name="description" content="
+  
+    science communication
+    
+      
+        
+      
+    
+  
+
+
+
+  
+      
+
+  Webinar: Human brains are special. Are they really?
+  Radboud tal..." />
+
+  
+  <meta name="keywords" content="" />
+
+  <link rel="canonical" href="http://localhost:4000/scicomm/">
+  <link rel="alternate" type="application/rss+xml" title="Suhas Vijayakumar" href="http://localhost:4000/feed.xml" />
+  <span itemprop='author'><meta name="author" content="Suhas Vijayakumar"><span itemprop='author'></span>
+
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/PT+Serif:400,400i,700,700i:f">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css">
+
+
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" }
+      },
+
+      CommonHTML: {
+        scale: 90
+      }
+    });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://use.fontawesome.com/4bee85bf94.js"></script>
+
+  
+</head>
+
+<body>
+
+  <div class="container main">
+    <div class="row navbar">
+    <div class="text-left">
+      | <a class="fa fa-home" href="/"></a>
+      <a href="/">about</a>
+
+      | 
+      <a href="/academia/"  >
+      academia
+      </a> |
+      
+      <a href="/scicomm/"  class="active">
+      scicomm
+      </a> |
+      
+      <a href="/blog/"  >
+      blog
+      </a> |
+      
+      <a href="/courses/"  >
+      courses
+      </a> |
+      
+    </div>
+    <div class="text-right">
+
+      
+      <a class="fa fa-copy" href="https://scholar.google.com/citations?user=w4ZMUwEAAAAJ&hl=en" title="Google scholar"></a>
+      
+
+      
+      <a class="fa fa-github" href="https://github.com/suhasvijayakumar" title="GitHub"></a>
+      
+
+      
+      <a class="fa fa-twitter" href="https://twitter.com/neuroacademic" title="Twitter"></a>
+      
+
+      
+      <a class="fa fa-linkedin" href="https://id.linkedin.com/in/suhas-vijayakumar" title="LinkedIn"></a>
+      
+
+      
+      <a class="fa fa-inbox" href="mailto:vijayakumar.suhas@gmail.com" title="Email"></a>
+      
+
+      
+      <a class="fa fa-instagram" href="https://www.instagram.com/academic_story" title="Instagram"></a>
+      
+
+
+    </div>
+</div>
+
+    <div class="row justify-content-center">
+  <header class="col-md-12 text-center mt-3">
+    <h1 itemprop="name" class="pl-3 pr-3">science communication</h1>
+    <div class="small-ornament pt-3 pb-3">
+      <svg viewBox="0 100 290 220">
+        <path d="M280.3 245.4Q280.3 263.3 261.8 272 247.9 278.7 227.8 278.7 235.3 269.9 235.3 256.5 235.3 231.9 214.5 217.1 196 204 170.3 204 143.6 204 108.8 221.1L119 231.5Q154.4 267.9 168.3 267.9 181.1 267.9 181.1 255.9 181.1 248.3 173.5 243.6 167.1 239.3 159 239.3 154.7 239.3 148.6 241.5 158.6 220.1 174 220.1 184.5 220.1 191.9 228.1 199.3 236.1 199.3 246.7 199.3 265.5 184.4 277.9 170.3 289.4 151 289.4 118.7 289.4 81.4 251L72.1 241.5Q53.6 249.5 39.4 249.5 26.4 249.5 17.2 241 7.9 232.5 7.9 219.5 7.9 203.9 19.1 193.9 30 184.5 45.8 184.5 70 184.5 98.3 211.6 111.5 202.2 127.5 185.5L134.6 178.2Q174.5 136.7 204.9 136.7 231.5 136.7 231.5 155.3 231.5 173.5 204.3 177.3 206.4 172.8 206.4 170.2 206.4 159.3 193.4 159.3 175.2 159.3 144.3 189L137.1 195.9Q165.2 185.8 191.3 185.8 221.8 185.8 248.3 200.1 280.3 217.3 280.3 245.4ZM61.2 230.5Q44.6 215.3 37.3 215.3 28 215.3 28 223.5 28 234.4 42.8 234.4 51.2 234.4 61.2 230.5z"/>
+      </svg>
+    </div>
+  </header>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-8">
+      <nav>
+<ul id="markdown-toc">
+  <li><a href="#webinar-human-brains-are-special-are-they-really" id="markdown-toc-webinar-human-brains-are-special-are-they-really">Webinar: Human brains are special. Are they really?</a></li>
+  <li><a href="#radboud-talks-2019" id="markdown-toc-radboud-talks-2019">Radboud talks 2019</a></li>
+  <li><a href="#neuro-nuggets-a-youtube-series" id="markdown-toc-neuro-nuggets-a-youtube-series">Neuro Nuggets (a YouTube series)</a></li>
+  <li><a href="#blogposts" id="markdown-toc-blogposts">Blogposts</a></li>
+</ul>
+
+</nav>
+
+<p>I am in strong favour of promoting public understanding of science and believe it to be particularly relevant in a developing country like India, where a career in science is often looked down upon. I want to communicate science, alongside pursuing scientific research, through jargon-less scientific writing, talking and teaching. Here are some samples.</p>
+
+<h2 id="webinar-human-brains-are-special-are-they-really">Webinar: Human brains are special. Are they really?</h2>
+<p>I was invited to give a public talk at my alma mater St. Joseph’s College, Bengaluru, India. Again, keeping with the norms of 2020, it was a webinar, and I tried to talk both about the kind of research I was engaged in, as well as generally why I find brains fascinating. At duration <code class="language-plaintext highlighter-rouge">24:20</code> in the following video, I start talking about some of those fascinating features like:</p>
+<ul>
+  <li>Synesthesia</li>
+  <li>Attention blindness</li>
+  <li>Plasticity (ability of brains to change)</li>
+  <li>Anton babinski syndrome (where people who cannot see, claim that they actually can!)</li>
+</ul>
+
+<div class="video-responsive">
+  <iframe src="https://www.youtube.com/embed/KILadoL5aXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="radboud-talks-2019">Radboud talks 2019</h2>
+<p><a href="https://www.ru.nl/english/research/vm/radboud-talks/">[news]</a> | <a href="https://www.youtube.com/playlist?list=PLg9CTsQv-ZWYCUtr1UppiibXYKSZVXSOb">[Youtube]</a></p>
+
+<p><strong>Radboud talks</strong> is a 3-minute pitch competition where researchers from all disciplines
+narrate their research stories for live audience and a jury of science communication experts. No presentation slides, no charts and graphs, just story.</p>
+
+<p>I ended up winning the 2019 competition for which, I received 1000 euros as personal science communication budget. Here’s my pitch during the preliminaries.</p>
+<div class="video-responsive">
+  <iframe src="https://www.youtube.com/embed/tSRifjmTBbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="neuro-nuggets-a-youtube-series">Neuro Nuggets (a YouTube series)</h2>
+<p>It’s easy to get occupied in doing research and not stop to enjoy the process. So, I started making a series of YouTube videos about how researchers got interested in the field of neuroscience. While I hope neuroscientists find these interesting, I also hope that someone stumbling upon one such video might find the field absolutely fascinating too.</p>
+
+<p>Below are two example stories in which, I talk to</p>
+<div class="row">
+  <div class="col-md-6" align="center">
+    <p><a target="_blank" href="https://twitter.com/cn_rogers">Dr. Christina Rogers Flattery</a></p>
+    <div class="video-responsive">
+      <iframe src="https://www.youtube.com/embed/QBbtXMxMoFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+  </div>
+  <div class="col-md-6" align="center">
+    <p><a target="_blank" href="http://mikexcohen.com/">Dr. Mike X Cohen</a></p>
+    <div class="video-responsive">
+      <iframe src="https://www.youtube.com/embed/UKI9dUOLJXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
+<h2 id="blogposts">Blogposts</h2>
+<p>Every now and then, I try to write blogposts about concepts that I find interesting. One such post about how flawed of planning can be, appeared on Donders Wonders blog.</p>
+
+<p>On planning fallacy: <a href="http://blog.donders.ru.nl/?p=6958&amp;lang=en">Things always take longer than expected. Always.</a></p>
+
+<p>I also jot down my thoughts on my own blog: <a href="/blog/">metadata</a></p>
+    
+  </div>
+</div>
+
+  </div>
+
+  <footer class="mb-2">
+  <div class="container">
+    <div class="row biography">
+      <div class="col-sm-4">
+        <h2>who am i</h2>
+        <p>I'm currently a post-doc at the <a target='_blank' href='https://projects.iq.harvard.edu/evolutionaryneurosciencelab/home'>Evolutionary nueorscience lab</a> of Harvard University. Here are my <a target='_blank' href='https://repository.ubn.ru.nl/bitstream/handle/2066/226799/226799.pdf?sequence=1'>PhD Thesis</a> and my <a href='/assets/resume.pdf'>Résumé</a>. Or go to <a href='/phd_defense'>PhD defense</a> page to know more about that and see my thesis cover page.</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>what is this</h2>
+        <p>This? <br> This is my home on the internet. Views expressed in this corner of the internet are my own, and do not necessarily reflect the views or opinions of anyone else.</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>Thanks to</h2>
+        <p>This site is based on <a target='_blank' href='https://github.com/hugoferreira/papyrus-theme'>Papyrus theme</a>, by Prof. Dr. Hugo Sereno Ferreira, and his blog. You can find his blog here <a target='_blank' href='http://hugosereno.eu/'>http://hugosereno.eu/</a>.</p>
+      </div>
+    </div>
+    
+    <div class="row copyright text-center">
+      <div class="col-sm-12">© 2021 by Suhas Vijayakumar.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>.</div>
+    </div>
+    
+  </div>
+</footer>
+
+
+</body>

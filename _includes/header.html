@@ -1,0 +1,40 @@
+<div class="row navbar">
+    <div class="text-left">
+      | <a class="fa fa-home" href="/"></a>
+      <a href="/">about</a>
+
+      | {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if item.highlight %}style="border: 1px solid red;"{% endif %} {% if item.link == page.url %}class="active"{% endif %}>
+      {{ item.name }}
+      </a> |
+      {% endfor %}
+    </div>
+    <div class="text-right">
+
+      {% if site.google_scholar %}
+      <a class="fa fa-copy" href="{{ site.google_scholar }}" title="Google scholar"></a>
+      {% endif %}
+
+      {% if site.github_username %}
+      <a class="fa fa-github" href="https://github.com/{{ site.github_username }}" title="GitHub"></a>
+      {% endif %}
+
+      {% if site.twitter_username %}
+      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"></a>
+      {% endif %}
+
+      {% if site.linkedin_username %}
+      <a class="fa fa-linkedin" href="https://id.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"></a>
+      {% endif %}
+
+      {% if site.contact_email %}
+      <a class="fa fa-inbox" href="{{ site.contact_email }}" title="Email"></a>
+      {% endif %}
+
+      {% if site.instagram_username %}
+      <a class="fa fa-instagram" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram"></a>
+      {% endif %}
+
+
+    </div>
+</div>

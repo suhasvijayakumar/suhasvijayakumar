@@ -1,0 +1,21 @@
+---
+layout: main_page
+title: metadata
+---
+<h2>
+  Browse by: <a href="/blog">[year]</a> | <a href="/blog/tags">[tags]</a>
+</h2>
+
+<div class="container">
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <abbr id="y{{post.date | date: "%Y"}}">{{ currentdate }}</abbr>
+      <ul class="post-archive-list">
+      {% assign date = currentdate %}
+    {% endif %}
+      <li class="post-archive-item"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+</div>
