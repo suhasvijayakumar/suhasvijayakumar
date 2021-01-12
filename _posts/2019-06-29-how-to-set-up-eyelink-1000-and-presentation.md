@@ -5,7 +5,7 @@ date: '2019-06-29'
 author: Suhas Vijayakumar
 tags:
 - academia
-- how to
+- how-to
 ---
 
 This is a quick how-to post for setting up an experiment with Eyelink 1000 eye tracker and Presentation software.

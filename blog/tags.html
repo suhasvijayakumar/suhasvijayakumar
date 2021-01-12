@@ -24,20 +24,22 @@ title:    metadata
 {% endunless %}
 {% endif %}
 {% endfor %}
+
 <h2>
   Browse by: <a href="/blog">[year]</a> | <a href="/blog/tags">[tags]</a>
 </h2>
 <div class="container">
   |&nbsp;&nbsp;
 {% for tag in tags %}
-<a class="fa fa-tags"></a>
-<a href="#{{ tag | slugify }}">  {{ tag }}  </a> &nbsp;&nbsp;|
+<a class="fa fa-tags" style="color:lightgrey"></a>
+<a href="#{{ tag | slugify }}">  {{ tag }} </a> &nbsp;&nbsp;|
 {% endfor %}
 </div>
 <br><br>
 <div class="container">
 {% for tag in tags %}
-<abbr id="{{ tag | slugify }}">{{ tag }}</abbr>
+<abbr id="{{ tag | slugify }}">{{ tag }} </abbr>
+
 <ul>
   {% for post in site.posts %}
   {% if post.tags contains tag %}

@@ -5,7 +5,7 @@ date: '2017-05-29'
 author: Suhas Vijayakumar
 tags:
 - advice
-- how to
+- how-to
 ---
 
 I’ve been a public speaking junkie for the better half of my life so far. I’ve mostly interacted with high schoolers. And I absolutely love it. I like the attention that I get when I’m in front of them, when they come and want to have a chat after the talk, when they contact me a year later to tell me how they are doing, I like the whole deal. And along the way the two most important things that have helped me get better are the following:
