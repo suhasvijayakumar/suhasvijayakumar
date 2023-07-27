@@ -51,7 +51,7 @@ When deciphering the mysteries of the universe, it is extremely important to ask
 
 So, what makes some science, good science?
 
-Well, if your science can reliably predict the outcome of an unobserved event[note]Substitute event by experiment, if you wish.[/note], without having to go back and fix your science, I think you’re making progress. After all, we’re terribly biased in explaining things that we already know, remember?
+Well, if your science can reliably predict the outcome of an unobserved event, without having to go back and fix your science, I think you’re making progress. After all, we’re terribly biased to hold on to what we already know and push through to gather more data in support of our theories, remember? 
 
 ### Further readings
 Confirmation bias -  [Wikipedia](https://en.wikipedia.org/wiki/Confirmation_bias)

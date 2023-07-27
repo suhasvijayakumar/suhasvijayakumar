@@ -7,17 +7,11 @@ title: science communication
 I am in strong favour of promoting public understanding of science and believe it to be particularly relevant in a developing country like India, where a career in science is often looked down upon. I want to communicate science, alongside pursuing scientific research, through jargon-less scientific writing, talking and teaching. Here are some samples.
 
 ## Webinar: Human brains are special. Are they really?
-I was invited to give a public talk at my alma mater St. Joseph's College, Bengaluru, India. Again, keeping with the norms of 2020, it was a webinar, and I tried to talk both about the kind of research I was engaged in, as well as generally why I find brains fascinating. At duration `24:20` in the following video, I start talking about some of those fascinating features like:
+I was invited to give a public talk at my alma mater St. Joseph's College, Bengaluru, India. Keeping with the norms of 2020, it was a webinar [<a target="_blank" href="https://www.youtube.com/watch?v=KILadoL5aXU">link to video</a>]. I tried to talk both about the kind of research I was engaged in, as well as generally why I find brains fascinating. At timepoint `24:20` is when I start talking about some of those fascinating features like:
 - Synesthesia
 - Attention blindness
 - Plasticity (ability of brains to change)
 - Anton babinski syndrome (where people who cannot see, claim that they actually can!)
-
-<div class="video-responsive">
-<iframe src="https://www.youtube.com/embed/KILadoL5aXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
 
 ## Radboud talks 2019
 [[news]](https://www.ru.nl/english/research/vm/radboud-talks/) | [[Youtube]](https://www.youtube.com/playlist?list=PLg9CTsQv-ZWYCUtr1UppiibXYKSZVXSOb)

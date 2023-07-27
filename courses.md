@@ -5,6 +5,13 @@ title: courses
 {% include toc.html %}
 
 ## Lectures
+
+**2020**
+- **Learning and Plasticity** <br>
+<abbr>The Human Brain in the Animal Kingdom</abbr> | [lecture slides]({{site.baseurl}}/courses/2020_HEB_learning_and_plasticity)<br>
+Lecture on plasticity associated with lack of stimulus during development, learning and training, and one slide on enhancing function through transient plasticity.<br>
+
+
 **2017**
 
 - **How to give great presentations?** <br>
@@ -15,6 +22,18 @@ Lecture on how to get better at public speaking, given to first year artificial 
 <abbr>Advanced research methods</abbr> | [lecture slides]({{site.baseurl}}/courses/2017_ARM) <br>
 Addressed second year artificial intelligence research master's students, on working in academia. <br>
 
+## Student supervision
+
+**2022**
+- Individual variation in the lateralization and exaptation of toolmaking neural circuitry for language use.
+- An investigation into the cellular connectivity of the canid prorean gyrus. 
+
+**2021**
+- Lateralization of language and toolmaking ability. 
+
+**2020**
+- Parcellation of the fox cerebellum based on white matter connectivity.
+- Cortico-cerebellar connectivity in domesticated foxes.
 
 ## Courses
 

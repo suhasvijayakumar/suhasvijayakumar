@@ -5,20 +5,34 @@ title: academia
 {% include toc.html %}
 
 ## Motivation and current position
-You probably can't differentiate between flowers that are harmless, from the ones that can kill you in an instant. You probably also can't hang silently from a tree for hours on end, grooming you friends. Suffice to say that we've branched off of our closest ancestors and have managed to acquire different skills along the way like effectively communicating with someone, be it across the room, or across the ocean.
+For the most part of my career in the field of neuroscience, 
+I genuinely found joy in comparing brains of various species 
+to understand what aspects of the structure of the brain set them apart. 
+Questions in the field of evolutionary neuroscience mostly stem from curiosity, 
+from the need to understand something deeply and lay out the nuances. 
+But during the course of my first postdoc, in the middle of the Covid-19 pandemic, 
+I realised that curiosity alone was not enough to sustain my motivation for work. 
+I wanted to work on something that had a clear path between research and its application in the world. 
 
-But how did our brains evolve to achieve such a feat? How are our brains different from other animals', from each others'? And just how does that result in the vast variety of behavior that we see - with some capable of composing beautifully complicated symphonies, and some others capable of reciting *pi* to a hundred decimal places?
-
-I finished my PhD work at the [Cognitive Neuroecology Lab](http://www.rbmars.dds.nl/lab.html) of the Donders Institute, Nijmegen, where we studied the parietal-frontal networks using resting state functional connectivity. I was supervised by Dr. Rogier B. Mars and Prof. Dr. Pieter Medendorp. Currently, I work as a fellow at Harvard University in the [Evolutionary Neuroscience Lab](https://projects.iq.harvard.edu/evolutionaryneurosciencelab/home) led by Dr. Erin Hecht.
+After months of discussions with experts in the field of ultrasonic neuromodulation, 
+cold emails to leading researchers, lunches with PhD students in the field, and some more reconsiderations, 
+I decided to start work in the (relatively new) field of low-intensity focused ultrasound neuromodulation. 
+Currently, as a postdoc in the Neurostimulation Group of Prof. Dr. Til Ole Bergmann, 
+I am using my background in physical sciences and neuroimaging to understand 
+the effects of focused ultrasound stimulation starting with healthy population. 
+Eventually, we hope to be able to use this technique 
+in supporting people with neurological disorders. 
 
 ## Education & Work
 
-**Post-doctoral fellow** | Evolutionary Neuroscience Lab | December, 2019 – present <br>
-Evolutionary Neuroecology Lab <br>
+**Post-doctoral fellow** | Neurostimulation Group | April, 2023 – present <br>
+University Medical Center of the Johannes Gutenberg University Mainz <small> Mainz, Germany </small>
+
+**Post-doctoral research fellow** | Evolutionary Neuroscience Lab | 2019 – 2022 <br>
 Harvard University <small> Cambridge, MA, USA </small>
 
-**PhD** | Cognitive Neuroscience | 2015 – 2019 <br>
-Cognitive Neuroecology Lab <br>
+**PhD** | Cognitive Neuroecology Lab | 2015 – 2019 <br>
+ Title: Principles of parietal-frontal cortical organization.<br>
 Donders Institute for Brain, Cognition and Behaviour <small> Nijmegen, The Netherlands </small>
 
 **M.Sc** | Cognitive Neuroscience | 2013 – 2015 <br>
@@ -27,10 +41,6 @@ Radboud University <small> Nijmegen, The Netherlands </small>
 
 **B.Sc** | Physics, Maths, Electronics | 2009 – 2012 <br>
 St. Joseph’s College <small> Bengaluru, India </small>
-
-**Pre-University** | 2007 – 2009 <br>
-Studied: Physics, Maths, Computer Science & Chemistry <br>
-Sadvidya Composite Pre-University College <small> Mysuru, India</small>
 
 ## Publications
 {% assign publications = site.data.publications %}

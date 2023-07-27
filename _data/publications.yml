@@ -1,11 +1,17 @@
-- title: "Principles of parietal-frontal cortical organization"
-  year: '2020'
-  type: PhD-thesis
+- title: Constructing others' beliefs from one's own using medial frontal cortex.
+  year: '2021'
+  type: journal-article
   authors:
+    - Kolling, N
+    - Braunsdorf, M
     - Vijayakumar, S
-  journal:
-  volume:
-  notes: PhD thesis
+    - Bekkering, H
+    - Toni, I
+    - Mars, R B
+  journal: Journal of Neuroscience
+  volume: 41 (46)
+  doi: https://doi.org/10.1523/JNEUROSCI.0011-21.2021
+  notes:
 
 - title: "Neural mechanisms of predicting individual preferences based on group membership"
   year: '2020'
@@ -18,7 +24,7 @@
   journal: Social Cognitive and Affective Neuroscience
   volume:
   doi: https://doi.org/10.1093/scan/nsaa136
-  notes: accepted
+  notes: 
 
 - title: "Longitudinal connections and the organization of the temporal cortex in macaques, great apes, and humans"
   year: '2020'
